@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+  body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center; /* Centraliza horizontalmente */
+      align-items: center;     /* Centraliza verticalmente */
+      background: linear-gradient(90deg,rgba(17, 37, 81, 1) 6%, rgba(17, 37, 80, 1) 100%);
+    }
+
+
+#calculadora {
+    width: 500px;
+    margin:50px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+   
+}
+
+#visor{
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+#visor-texto{
+    width:90%;
+    height: 40px;
+    margin: 20px;
+    
+    padding: 10px;
+    font-size:40px ;
+    background-color:#1f1f1f;
+    border-style: none;
+    color: white;
+    text-align: right;
+}
+
+#botoes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+   
+    width: 97%;
+
+}
+
+.Btn{
+    width:120px;
+    height:80px;
+    margin: 2px;
+    border: none;
+   
+
+    background-color: #1f1f1f;
+    color: white;
+
+ 
+  
+}
+
+.Btn:hover{
+    width:120px;
+    height:80px;
+    margin: 2px;
+    border: none;
+   
+
+    background-color:black;
+    color: white;
+
+ 
+  
+}
+
+.operacoes{
+    width: 98%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+  
+
+   
+   
+ 
+}
+
+#igual{
+      width:365px;
+      height:80px;
+}
+#limpar{
+       width:370px;
+      height:80px;
+      background-color: #1f1f1f;
+      border: none;
+     
+}
+
+#limpar:hover{
+       width:370px;
+      height:80px;
+      background-color:black;
+      border: none;
+     
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.Btn2{
+    width:120px;
+    height:80px;
+    margin: 2px;
+    border: none;
+   
+
+    background-color: #ffa500;
+    color: white;
+
+ 
+  
+}
+
+.Btn2:hover{
+    width:120px;
+    height:80px;
+    margin: 2px;
+    border: none;
+
+    background-color: #ee9b01b6;
+    color: white;
+
+ 
+  
+}
+
